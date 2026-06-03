@@ -28,37 +28,11 @@ The goal was to improve the efficiency and generalisability of federated models 
 ## Dataset
 Experiments conducted on standard FL benchmarks with non-IID data partitioning to simulate realistic heterogeneous client distributions.
 
-## How to Run
-
-```bash
-# Clone the repo
-git clone https://github.com/siinvictus/FederatedLearningClientSelectionTechniquesandPruning.git
-cd FederatedLearningClientSelectionTechniquesandPruning/MLDL23-FL-project-main
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run training
-python main.py
-```
-
-## Project Structure
-```
-MLDL23-FL-project-main/
-├── main.py                  ← entry point
-├── server.py                ← federation server logic
-├── client.py                ← client training logic
-├── datasets/                ← data loading and partitioning
-├── models/                  ← model architectures
-└── utils/                   ← helper functions
-Report_MLDL_Federated Learning.pdf  ← full project report
-```
-
 ## Tech Stack
-Python, PyTorch, NumPy
+Python, PyTorch, NumPy etc.
 
 ## Authors
-Silva Bashllari & collaborators — Politecnico di Torino, MLDL 2023
+Silva Bashllari & collaborators — Politecnico di Torino, MLDL January 2024
 
 ## License
 [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)
